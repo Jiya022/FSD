@@ -1,0 +1,46 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nonwrap;
+    justify-content: space-evenly;
+
+    border: 1px red;
+    background-color: mediumvioletred;
+
+}
+
+.child1{
+    border: 1px dotted chartreuse;
+    background-color: blueviolet;
+    height: 200px;
+    width: 200px;
+}
+
+.child2{
+    border: 1px dotted blueviolet;
+    background-color: aqua;
+    height: 200px;
+    width: 200px;
+}
+.child3{
+    border: 1px dotted palevioletred;
+    background-color pink ;
+    height: 200px;
+    width: 200px;
+}
+.child4{
+    border: 1px dotted brown;
+    background-color: brown;
+    height: 200px;
+    width: 200px;
+}
+
+.container2 p:nth-child(3) {
+  color: red;
+}
+
+.container2 p:nth-of-type(3) {
+  color: blue;
+}
+

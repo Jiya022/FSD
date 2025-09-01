@@ -1,0 +1,56 @@
+/*body{
+    background-color: brown;
+}
+*/
+
+/*p{
+    color: blue;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightgrey;
+}*/
+
+/*#para1{
+    color: red;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: lightgrey;
+}*/
+
+/*.para1{
+    color: red;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: pink;*/
+
+div~p{
+    color: green;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+p:hover{
+    color: yellow;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: lightgrey;
+}
+
+p::before{
+    content: "hehehehhee"
+}
+
+p::after{
+    content: "hehehehhee"
+}
+
+p::selecion{
+    color: red; 
+}
+
