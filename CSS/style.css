@@ -1,56 +1,47 @@
-/*body{
+/* body{
+    background-color:brown;
+} */
+ /* p,h2{
+    background-color: aqua;
+    color: blueviolet;
+ }
+
+ #para1{
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: xx-large;
+ } */
+/* 
+ .para1{
+    background-color: aquamarine;
+ } */
+
+
+ div~p{
+    background-color: aquamarine;
+ }
+
+ p:hover{
+    background-color: cadetblue;
+    font-size: xx-large;
+ }
+
+ p::before{
+    content: "Hiiiiiiii";
+ }
+
+ p::after{
     background-color: brown;
-}
-*/
+    content: "Hii, using content append in paragraph";
+ }
 
-/*p{
-    color: blue;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: lightgrey;
-}*/
+ p::selection{
+    background-color: chartreuse;
+ }
 
-/*#para1{
-    color: red;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: lightgrey;
-}*/
+ p:nth-child(2){
+    background-color: chocolate;
+ }
 
-/*.para1{
-    color: red;
-    font-size: 40px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: pink;*/
+ div p:nth-of-type(1){
 
-div~p{
-    color: green;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: lightgrey;
-}
-
-p:hover{
-    color: yellow;
-    font-size: 25px;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    background-color: lightgrey;
-}
-
-p::before{
-    content: "hehehehhee"
-}
-
-p::after{
-    content: "hehehehhee"
-}
-
-p::selecion{
-    color: red; 
-}
-
+ }
